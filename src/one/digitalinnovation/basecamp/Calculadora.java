@@ -5,32 +5,20 @@ package one.digitalinnovation.basecamp;
  */
 public class Calculadora {
 
-    public static void soma(double numero1, double numero2) {
-
-        double resultado = numero1 + numero2;
-
-        System.out.println("A soma de " + numero1 + " mais " + numero2 + " é " + resultado);
+    public static void soma(double num1, double num2) {
+        double result = num1 + num2;
+        System.out.println("A soma de "+num1 + " e "+num2 + " é "+result);
     }
-
-    public static void subtracao(double numero1, double numero2) {
-
-        double resultado = numero1 - numero2;
-
-        System.out.println("A subtracao de " + numero1 + " menos " + numero2 + " é " + resultado);
+    public static void subtracao(double num1, double num2){
+        double result = num1 - num2;
+        System.out.println("A subtracao de "+num1 + " e "+num2 + " é "+result);
     }
-
-    public static void multiplicacao(double numero1, double numero2) {
-
-        double resultado = numero1 * numero2;
-
-        System.out.println("A multiplicação de " + numero1 + " vezes " + numero2 + " é " + resultado);
+    public static void multiplicacao(double num1, double num2) {
+        double result = num1 * num2;
+        System.out.println("A multiplicacao de "+num1 + " e "+num2 + " é "+result);
     }
-
-    public static void  divisao(double numero1, double numero2) {
-
-        double resultado = numero1 / numero2;
-
-        System.out.println("A divisão de " + numero1 + " por " + numero2 + " é " + resultado);
+    public static void divisao(double num1, double num2) {
+        double result = num1 / num2;
+        System.out.println("A divisão de "+num1 + " e "+num2 + " é "+result);
     }
-
 }
